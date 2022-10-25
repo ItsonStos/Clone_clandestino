@@ -6,49 +6,52 @@ class HomeMaisTeli3 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: [
-        const Text('data'),
-        Row(
-          children: [
-            Column(
-              children: [
-              Image.asset(Util.assetsShopCoffeeBeans1),
-              const Text(''),
-              const Text(''),
-              const Text(''),
-              ],
-            ),
-            Column(
-              children: [
-              Image.asset(Util.assetsShopCoffeeBeans1),
-              const Text(''),
-              const Text(''),
-              const Text(''),
-              ],
-            ),
-            Column(
-              children: [
-              Image.asset(Util.assetsShopCoffeeBeans1),
-              const Text(''),
-              const Text(''),
-              const Text(''),
-              ],
-            ),
-            Column(
-              children: [
-              Image.asset(Util.assetsShopCoffeeBeans1),
-              const Text(''),
-              const Text(''),
-              const Text(''),
-              ],
-            ),
-          ],          
-        ),
-        OutlinedButton(
-          onPressed: (){}, 
-          child: const Text('SHOP ALL COFFEE'))
-      ],
+    return SizedBox(
+      height: 310,
+      child: Column(
+        children: [
+          const Text('data'),
+          Row(
+            children: [
+              Column(
+                children: [
+                Image.asset(Util.assetsShopCoffeeBeans1),
+                const Text(''),
+                const Text(''),
+                const Text(''),
+                ],
+              ),
+              Column(
+                children: [
+                Image.asset(Util.assetsShopCoffeeBeans1),
+                const Text(''),
+                const Text(''),
+                const Text(''),
+                ],
+              ),
+              Column(
+                children: [
+                Image.asset(Util.assetsShopCoffeeBeans1),
+                const Text(''),
+                const Text(''),
+                const Text(''),
+                ],
+              ),
+              Column(
+                children: [
+                Image.asset(Util.assetsShopCoffeeBeans1),
+                const Text(''),
+                const Text(''),
+                const Text(''),
+                ],
+              ),
+            ],          
+          ),
+          OutlinedButton(
+            onPressed: (){}, 
+            child: const Text('SHOP ALL COFFEE'))
+        ],
+      ),
     );
   }
 }

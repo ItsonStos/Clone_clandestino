@@ -14,7 +14,7 @@ class HomeContentWidget extends StatelessWidget {
         HomeMainTile(),
         HomeMainTile2(),
         HomeMainTile(),
-        HomeMainTile(),
+       // HomeMainTile(),
       ],
     );
   }
