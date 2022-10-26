@@ -7,7 +7,7 @@ class HomeMagnetoOrganicBlendTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: 500,
+      height: 600,
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [

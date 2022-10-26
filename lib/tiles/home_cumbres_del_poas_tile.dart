@@ -7,7 +7,7 @@ class HomeCumbresDelPoasTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: 500,
+      height: 550,
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
