@@ -1,6 +1,5 @@
 
 import 'package:clandestino/widgets/home_appbar_image_widget.dart';
-import 'package:clandestino/widgets/home_bottom_navigator.dart';
 import 'package:clandestino/widgets/home_content_widget.dart';
 import 'package:clandestino/widgets/home_drawer_widget.dart';
 import 'package:clandestino/widgets/home_floating_action_widget.dart';
@@ -17,6 +16,7 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       appBar: AppBar(
         backgroundColor: Colors.black87,
         automaticallyImplyLeading: false,
@@ -49,7 +49,6 @@ class _HomeScreenState extends State<HomeScreen> {
       drawer: const HomeDrawerWidget(),
       body: const HomeContentWidget(),
       floatingActionButton: const HomeFloatingActionWidget(),
-      //bottomNavigationBar: BottomNavigationBar(items: Container()),
     );
   }
 }

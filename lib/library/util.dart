@@ -7,8 +7,6 @@ class Util {
   static String get assetsHomeMainTile3 => join('assets', 'home_tile_main_3.png');
   static String get assetsHomeMainTile4 => join('assets', 'home_tile_main_4.png');
   static String get assetsHomeMainTile5 => join('assets', 'home_tile_main_5.png');
-  static String get assetsShopCoffeeBeans1 => join('assets', 'shop_coffee_beans1.png');
-  static String get assetsShopCoffeeBeans2 => join('assets', 'shop_coffee_beans2.png');
-  static String get assetsShopCoffeeBeans3 => join('assets', 'shop_coffee_beans3.png');
-  static String get assetsShopCoffeeBeans4 => join('assets', 'shop_coffee_beans4.png');
+  static String get assetsHomeMainTile6 => join('assets', 'home_tile_main_6.png');
+  static String get assetsHomeMainTile7 => join('assets', 'home_tile_main_7.png');
 }
